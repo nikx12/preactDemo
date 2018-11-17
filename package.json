@@ -1,0 +1,32 @@
+{
+  "name": "preactdemo",
+  "version": "1.0.0",
+  "description": "A simple project to explore the preact library",
+  "main": "app.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "preact": "^8.3.1",
+    "webpack": "^4.25.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikx12/preactDemo.git"
+  },
+  "author": "Nikhita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikx12/preactDemo/issues"
+  },
+  "homepage": "https://github.com/nikx12/preactDemo#readme"
+}
